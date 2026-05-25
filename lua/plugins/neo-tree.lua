@@ -26,7 +26,8 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<leader>ff", "<cmd>Neotree toggle float<cr>")
-		vim.keymap.set("n", "<leader>ft", "<cmd>Neotree toggle left<cr>")
+		vim.keymap.set("n", "<leader>ft", "<cmd>Neotree toggle float<cr>")
+		vim.keymap.set("n", "<leader>lt", "<cmd>Neotree toggle left<cr>")
+		vim.keymap.set("n", "<leader>rt", "<cmd>Neotree toggle left<cr>")
 	end,
 }

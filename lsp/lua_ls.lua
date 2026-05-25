@@ -1,5 +1,4 @@
 local utils = require("utils")
-local config_lua = vim.fn.stdpath("config") .. "/lua"
 local runtime_lua = vim.env.VIMRUNTIME .. "/lua"
 
 return {
@@ -27,7 +26,6 @@ return {
 			workspace = {
 				checkThirdParty = false,
 				library = {
-					config_lua,
 					runtime_lua,
 				},
 			},

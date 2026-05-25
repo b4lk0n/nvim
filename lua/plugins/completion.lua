@@ -113,9 +113,15 @@ return {
 		cmdline = {},
 
 		sources = {
-			default = { "lsp", "path", "buffer" },
+			default = { "lazydev", "lsp", "path", "buffer" },
 
-			providers = {},
+			providers = {
+				lazydev = {
+					name = "LazyDev",
+					module = "lazydev.integrations.blink",
+					score_offset = 100,
+				},
+			},
 		},
 	},
 	opts_extend = { "sources.default" },

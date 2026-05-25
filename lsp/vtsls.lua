@@ -29,7 +29,7 @@ return {
 			autoUseWorkspaceTsdk = true,
 			experimental = {
 				completion = {
-					entiresLimit = 50,
+					entriesLimit = 50,
 				},
 			},
 		},
